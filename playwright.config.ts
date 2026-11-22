@@ -17,7 +17,7 @@ export default defineConfig({
     ['html', { open: 'never' }],
   ],
   use: {
-    baseURL: process.env.BASE_URL ?? 'https://demoqa.com',
+    baseURL: process.env.BASE_URL ?? 'http://www.uitestingplayground.com/',
     actionTimeout: 10_000,
     navigationTimeout: 30_000,
     trace: 'on-first-retry',
