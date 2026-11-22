@@ -5,3 +5,5 @@ blob-report/
 playwright/.cache/
 dist/
 .env
+.mcp-cache/
+.vscode/mcp.json
