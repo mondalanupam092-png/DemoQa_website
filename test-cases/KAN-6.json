@@ -1,0 +1,177 @@
+{
+  "ticketId": "KAN-6",
+  "title": "Automate UI Testing Playground scenario catalog navigation",
+  "acceptanceCriteria": [
+    {
+      "id": "KAN-6-AC1",
+      "text": "Homepage scenario catalog visibility: When the UI Testing Playground homepage is opened, the heading “UI Test Automation Playground” and the following scenario sections are visible: “Dynamic ID”, “Class Attribute”, “Hidden Layers”, “Load Delay”, “AJAX Data”, “Client Side Delay”, “Click”, “Text Input”, “Scrollbars”, “Dynamic Table”, “Verify Text”, “Progress Bar”, “Visibility”, “Sample App”, “Mouse Over”, “Non-Breaking Space”, “Overlapped Element”, “Shadow DOM”, “Alerts”, “File Upload”, “Animated Button”, “Disabled Input”, “Auto Wait”, “Frames”, “Geo Location”, “Clear Input”, “Scroll to Click”, “CSS Selectors”, and “Select”"
+    }
+  ],
+  "testCases": [
+    {
+      "id": "KAN-6-AC1-POSITIVE",
+      "acceptanceCriterionId": "KAN-6-AC1",
+      "category": "positive",
+      "title": "Positive: Homepage scenario catalog visibility: When the UI Testing Playground homepage is opened, the heading “UI Test Automation Playground” and the following scenario sections are visible: “Dynamic ID”, “Class Attribute”, “Hidden Layers”, “Load Delay”, “AJAX Data”, “Client Side Delay”, “Click”, “Text Input”, “Scrollbars”, “Dynamic Table”, “Verify Text”, “Progress Bar”, “Visibility”, “Sample App”, “Mouse Over”, “Non-Breaking Space”, “Overlapped Element”, “Shadow DOM”, “Alerts”, “File Upload”, “Animated Button”, “Disabled Input”, “Auto Wait”, “Frames”, “Geo Location”, “Clear Input”, “Scroll to Click”, “CSS Selectors”, and “Select”",
+      "steps": [
+        "Perform the valid user flow required by: Homepage scenario catalog visibility: When the UI Testing Playground homepage is opened, the heading “UI Test Automation Playground” and the following scenario sections are visible: “Dynamic ID”, “Class Attribute”, “Hidden Layers”, “Load Delay”, “AJAX Data”, “Client Side Delay”, “Click”, “Text Input”, “Scrollbars”, “Dynamic Table”, “Verify Text”, “Progress Bar”, “Visibility”, “Sample App”, “Mouse Over”, “Non-Breaking Space”, “Overlapped Element”, “Shadow DOM”, “Alerts”, “File Upload”, “Animated Button”, “Disabled Input”, “Auto Wait”, “Frames”, “Geo Location”, “Clear Input”, “Scroll to Click”, “CSS Selectors”, and “Select”"
+      ],
+      "expectedResult": "Homepage scenario catalog visibility: When the UI Testing Playground homepage is opened, the heading “UI Test Automation Playground” and the following scenario sections are visible: “Dynamic ID”, “Class Attribute”, “Hidden Layers”, “Load Delay”, “AJAX Data”, “Client Side Delay”, “Click”, “Text Input”, “Scrollbars”, “Dynamic Table”, “Verify Text”, “Progress Bar”, “Visibility”, “Sample App”, “Mouse Over”, “Non-Breaking Space”, “Overlapped Element”, “Shadow DOM”, “Alerts”, “File Upload”, “Animated Button”, “Disabled Input”, “Auto Wait”, “Frames”, “Geo Location”, “Clear Input”, “Scroll to Click”, “CSS Selectors”, and “Select”",
+      "reviewRequired": false,
+      "automationPlan": {
+        "pageObject": "homePage",
+        "actions": [
+          {
+            "method": "goto"
+          }
+        ],
+        "assertion": {
+          "kind": "headingsVisible",
+          "expected": [
+            "UI Test Automation Playground",
+            "Dynamic ID",
+            "Class Attribute",
+            "Hidden Layers",
+            "Load Delay",
+            "AJAX Data",
+            "Client Side Delay",
+            "Click",
+            "Text Input",
+            "Scrollbars",
+            "Dynamic Table",
+            "Verify Text",
+            "Progress Bar",
+            "Visibility",
+            "Sample App",
+            "Mouse Over",
+            "Non-Breaking Space",
+            "Overlapped Element",
+            "Shadow DOM",
+            "Alerts",
+            "File Upload",
+            "Animated Button",
+            "Disabled Input",
+            "Auto Wait",
+            "Frames",
+            "Geo Location",
+            "Clear Input",
+            "Scroll to Click",
+            "CSS Selectors",
+            "Select"
+          ]
+        }
+      },
+      "automationPlanSource": "local-rule"
+    },
+    {
+      "id": "KAN-6-AC1-NEGATIVE",
+      "acceptanceCriterionId": "KAN-6-AC1",
+      "category": "negative",
+      "title": "Negative: Homepage scenario catalog visibility: When the UI Testing Playground homepage is opened, the heading “UI Test Automation Playground” and the following scenario sections are visible: “Dynamic ID”, “Class Attribute”, “Hidden Layers”, “Load Delay”, “AJAX Data”, “Client Side Delay”, “Click”, “Text Input”, “Scrollbars”, “Dynamic Table”, “Verify Text”, “Progress Bar”, “Visibility”, “Sample App”, “Mouse Over”, “Non-Breaking Space”, “Overlapped Element”, “Shadow DOM”, “Alerts”, “File Upload”, “Animated Button”, “Disabled Input”, “Auto Wait”, “Frames”, “Geo Location”, “Clear Input”, “Scroll to Click”, “CSS Selectors”, and “Select”",
+      "steps": [
+        "Try an invalid or missing input relevant to: Homepage scenario catalog visibility: When the UI Testing Playground homepage is opened, the heading “UI Test Automation Playground” and the following scenario sections are visible: “Dynamic ID”, “Class Attribute”, “Hidden Layers”, “Load Delay”, “AJAX Data”, “Client Side Delay”, “Click”, “Text Input”, “Scrollbars”, “Dynamic Table”, “Verify Text”, “Progress Bar”, “Visibility”, “Sample App”, “Mouse Over”, “Non-Breaking Space”, “Overlapped Element”, “Shadow DOM”, “Alerts”, “File Upload”, “Animated Button”, “Disabled Input”, “Auto Wait”, “Frames”, “Geo Location”, “Clear Input”, “Scroll to Click”, “CSS Selectors”, and “Select”"
+      ],
+      "expectedResult": "The invalid attempt is rejected without unintended state changes.",
+      "reviewRequired": false,
+      "automationPlan": {
+        "pageObject": "homePage",
+        "actions": [
+          {
+            "method": "goto"
+          }
+        ],
+        "assertion": {
+          "kind": "headingsVisible",
+          "expected": [
+            "UI Test Automation Playground",
+            "Dynamic ID",
+            "Class Attribute",
+            "Hidden Layers",
+            "Load Delay",
+            "AJAX Data",
+            "Client Side Delay",
+            "Click",
+            "Text Input",
+            "Scrollbars",
+            "Dynamic Table",
+            "Verify Text",
+            "Progress Bar",
+            "Visibility",
+            "Sample App",
+            "Mouse Over",
+            "Non-Breaking Space",
+            "Overlapped Element",
+            "Shadow DOM",
+            "Alerts",
+            "File Upload",
+            "Animated Button",
+            "Disabled Input",
+            "Auto Wait",
+            "Frames",
+            "Geo Location",
+            "Clear Input",
+            "Scroll to Click",
+            "CSS Selectors",
+            "Select"
+          ]
+        }
+      },
+      "automationPlanSource": "local-rule"
+    },
+    {
+      "id": "KAN-6-AC1-EDGE",
+      "acceptanceCriterionId": "KAN-6-AC1",
+      "category": "edge",
+      "title": "Edge: Homepage scenario catalog visibility: When the UI Testing Playground homepage is opened, the heading “UI Test Automation Playground” and the following scenario sections are visible: “Dynamic ID”, “Class Attribute”, “Hidden Layers”, “Load Delay”, “AJAX Data”, “Client Side Delay”, “Click”, “Text Input”, “Scrollbars”, “Dynamic Table”, “Verify Text”, “Progress Bar”, “Visibility”, “Sample App”, “Mouse Over”, “Non-Breaking Space”, “Overlapped Element”, “Shadow DOM”, “Alerts”, “File Upload”, “Animated Button”, “Disabled Input”, “Auto Wait”, “Frames”, “Geo Location”, “Clear Input”, “Scroll to Click”, “CSS Selectors”, and “Select”",
+      "steps": [
+        "Exercise the boundary or repeated-use condition relevant to: Homepage scenario catalog visibility: When the UI Testing Playground homepage is opened, the heading “UI Test Automation Playground” and the following scenario sections are visible: “Dynamic ID”, “Class Attribute”, “Hidden Layers”, “Load Delay”, “AJAX Data”, “Client Side Delay”, “Click”, “Text Input”, “Scrollbars”, “Dynamic Table”, “Verify Text”, “Progress Bar”, “Visibility”, “Sample App”, “Mouse Over”, “Non-Breaking Space”, “Overlapped Element”, “Shadow DOM”, “Alerts”, “File Upload”, “Animated Button”, “Disabled Input”, “Auto Wait”, “Frames”, “Geo Location”, “Clear Input”, “Scroll to Click”, “CSS Selectors”, and “Select”"
+      ],
+      "expectedResult": "The boundary condition is handled without a crash or unintended state changes.",
+      "reviewRequired": false,
+      "automationPlan": {
+        "pageObject": "homePage",
+        "actions": [
+          {
+            "method": "goto"
+          }
+        ],
+        "assertion": {
+          "kind": "headingsVisible",
+          "expected": [
+            "UI Test Automation Playground",
+            "Dynamic ID",
+            "Class Attribute",
+            "Hidden Layers",
+            "Load Delay",
+            "AJAX Data",
+            "Client Side Delay",
+            "Click",
+            "Text Input",
+            "Scrollbars",
+            "Dynamic Table",
+            "Verify Text",
+            "Progress Bar",
+            "Visibility",
+            "Sample App",
+            "Mouse Over",
+            "Non-Breaking Space",
+            "Overlapped Element",
+            "Shadow DOM",
+            "Alerts",
+            "File Upload",
+            "Animated Button",
+            "Disabled Input",
+            "Auto Wait",
+            "Frames",
+            "Geo Location",
+            "Clear Input",
+            "Scroll to Click",
+            "CSS Selectors",
+            "Select"
+          ]
+        }
+      },
+      "automationPlanSource": "local-rule"
+    }
+  ]
+}
