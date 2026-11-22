@@ -1,0 +1,99 @@
+{
+  "ticketId": "KAN-4",
+  "title": "Create an automation test case in RT",
+  "acceptanceCriteria": [
+    {
+      "id": "KAN-4-AC1",
+      "text": "This feature creates a Playwright automation test case for the demoqa homepage, focused on validating that the home page div “Elements”, “Forms”, “Interactions”, and “Widgets” are present. Status: To Do  Assignee: Anupam Mondal  Priority: Highest  - Latest updates: Status changed from Idea to To Do on November 21, 2026"
+    }
+  ],
+  "testCases": [
+    {
+      "id": "KAN-4-AC1-POSITIVE",
+      "acceptanceCriterionId": "KAN-4-AC1",
+      "category": "positive",
+      "title": "Positive: This feature creates a Playwright automation test case for the demoqa homepage, focused on validating that the home page div “Elements”, “Forms”, “Interactions”, and “Widgets” are present. Status: To Do  Assignee: Anupam Mondal  Priority: Highest  - Latest updates: Status changed from Idea to To Do on November 21, 2026",
+      "steps": [
+        "Perform the valid user flow required by: This feature creates a Playwright automation test case for the demoqa homepage, focused on validating that the home page div “Elements”, “Forms”, “Interactions”, and “Widgets” are present. Status: To Do  Assignee: Anupam Mondal  Priority: Highest  - Latest updates: Status changed from Idea to To Do on November 21, 2026"
+      ],
+      "expectedResult": "This feature creates a Playwright automation test case for the demoqa homepage, focused on validating that the home page div “Elements”, “Forms”, “Interactions”, and “Widgets” are present. Status: To Do  Assignee: Anupam Mondal  Priority: Highest  - Latest updates: Status changed from Idea to To Do on November 21, 2026",
+      "reviewRequired": false,
+      "automationPlan": {
+        "pageObject": "homePage",
+        "actions": [
+          {
+            "method": "goto"
+          }
+        ],
+        "assertion": {
+          "kind": "textsVisible",
+          "expected": [
+            "Elements",
+            "Forms",
+            "Interactions",
+            "Widgets"
+          ]
+        }
+      },
+      "automationPlanSource": "local-rule"
+    },
+    {
+      "id": "KAN-4-AC1-NEGATIVE",
+      "acceptanceCriterionId": "KAN-4-AC1",
+      "category": "negative",
+      "title": "Negative: This feature creates a Playwright automation test case for the demoqa homepage, focused on validating that the home page div “Elements”, “Forms”, “Interactions”, and “Widgets” are present. Status: To Do  Assignee: Anupam Mondal  Priority: Highest  - Latest updates: Status changed from Idea to To Do on November 21, 2026",
+      "steps": [
+        "Try an invalid or missing input relevant to: This feature creates a Playwright automation test case for the demoqa homepage, focused on validating that the home page div “Elements”, “Forms”, “Interactions”, and “Widgets” are present. Status: To Do  Assignee: Anupam Mondal  Priority: Highest  - Latest updates: Status changed from Idea to To Do on November 21, 2026"
+      ],
+      "expectedResult": "The invalid attempt is rejected without unintended state changes.",
+      "reviewRequired": false,
+      "automationPlan": {
+        "pageObject": "homePage",
+        "actions": [
+          {
+            "method": "goto"
+          }
+        ],
+        "assertion": {
+          "kind": "textsVisible",
+          "expected": [
+            "Elements",
+            "Forms",
+            "Interactions",
+            "Widgets"
+          ]
+        }
+      },
+      "automationPlanSource": "local-rule"
+    },
+    {
+      "id": "KAN-4-AC1-EDGE",
+      "acceptanceCriterionId": "KAN-4-AC1",
+      "category": "edge",
+      "title": "Edge: This feature creates a Playwright automation test case for the demoqa homepage, focused on validating that the home page div “Elements”, “Forms”, “Interactions”, and “Widgets” are present. Status: To Do  Assignee: Anupam Mondal  Priority: Highest  - Latest updates: Status changed from Idea to To Do on November 21, 2026",
+      "steps": [
+        "Exercise the boundary or repeated-use condition relevant to: This feature creates a Playwright automation test case for the demoqa homepage, focused on validating that the home page div “Elements”, “Forms”, “Interactions”, and “Widgets” are present. Status: To Do  Assignee: Anupam Mondal  Priority: Highest  - Latest updates: Status changed from Idea to To Do on November 21, 2026"
+      ],
+      "expectedResult": "The boundary condition is handled without a crash or unintended state changes.",
+      "reviewRequired": false,
+      "automationPlan": {
+        "pageObject": "homePage",
+        "actions": [
+          {
+            "method": "goto"
+          }
+        ],
+        "assertion": {
+          "kind": "textsVisible",
+          "expected": [
+            "Elements",
+            "Forms",
+            "Interactions",
+            "Widgets"
+          ]
+        }
+      },
+      "automationPlanSource": "local-rule"
+    }
+  ]
+}
